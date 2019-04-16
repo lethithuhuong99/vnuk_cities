@@ -7,8 +7,12 @@
 <title>Adding contacts</title>
 </head>
 <body>
-	<h1>Adding a city</h1>
+
+	<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+	<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 	<c:import url="header.jsp" />
+	<h1>Adding a city</h1>
+	
 	<form action="addCity">
 		<div>
 			<label for="city"> City: </label>
