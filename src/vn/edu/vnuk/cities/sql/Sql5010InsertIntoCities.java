@@ -27,9 +27,9 @@ public class Sql5010InsertIntoCities {
 			statement = connection.prepareStatement(sqlQuery);
 
             //	Replacing "?" through values
-            statement.setString(1, "Da Nang");
-            statement.setString(2, "Da Nang");
-            statement.setLong(3, 84);
+            statement.setString(1, "Đà Nẵng");
+            statement.setString(2, "Đà Nẵng");
+            statement.setLong(3, 1284);
 
             // 	Executing statement
 			statement.execute();
